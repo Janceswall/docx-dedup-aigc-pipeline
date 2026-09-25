@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物
+dedup_work/
+dedup_out/
+out/
+out2/
+work/
+*.applied.json
+_writer_selftest*.docx
+examples/_demo_work/
+examples/out/
+
+# 用户文档：不要把真实论文与检测报告提交进仓库
+# （示例文档由 examples/demo.py 现场生成，无需提交）
+*.docx
+*.doc
+*.pdf
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
